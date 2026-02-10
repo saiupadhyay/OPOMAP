@@ -1,0 +1,298 @@
+    <div className="page">
+      <section className="hero-page">
+        <div className="hero">
+          {/* LOGO */}
+          <div className="logo">
+            🔥 <span>OPOMAP</span>
+          </div>
+
+          <br />
+
+          {/* Badge */}
+          <div className="badge">⚡Leading platform for firefighter exams</div>
+
+          {/* Heading */}
+          <h1 className="title">
+            Prepare for your exams <br />
+            <span>intelligently</span>
+          </h1>
+
+          {/* Subtext */}
+          <p className="subtitle">
+            Interactive maps, official questions and exam simulations.
+            Everything you need to pass firefighter exams in one platform.
+          </p>
+
+          {/* Buttons */}
+          <div className="buttons">
+            <button className="btn primary">⚡Access Platform ➡️</button>
+            <button className="btn secondary">Discover More ➡️</button>
+          </div>
+
+          {/* Stats */}
+          <div className="stats">
+            <Stat value="5,000+" label="Available Questions" />
+            <Stat value="95%" label="Pass Rate" />
+            <Stat value="15+" label="Partner Academies" />
+            <Stat value="24/7" label="Availability" />
+          </div>
+        </div>
+      </section>
+
+      <section className="features-section">
+        <div className="features-container">
+          <div className="feature-header">
+            <h2 style={{ color: "#0f172a" }}>Everything you need to succeed</h2>
+            <p style={{ color: "#475569" }}>
+              A complete platform designed specifically for firefighter exams
+              candidates.
+            </p>
+          </div>
+
+          <br />
+          <br />
+
+          <div className="features-grid">
+            <FeatureCard
+              color="blue"
+              title="Interactive Maps"
+              desc="Learn geography with real and interactibve maps. Rivers, mountains, cities and more."
+              icon="🗺"
+            />
+
+            <FeatureCard
+              color="purple"
+              title="Smart Practice Mode"
+              desc="Immediate feedback and repetition until mastering each question. Build muscle memory."
+              icon="🧠"
+            />
+
+            <FeatureCard
+              color="red"
+              title="Exam Simulations"
+              desc="Practice with official firefighter exams questions. Simulate the real exam."
+              icon="🎯"
+            />
+
+            <FeatureCard
+              color="green"
+              title="Progress Tracking"
+              desc="Detailed performance statistics. Identify weak points and improve."
+              icon="📈"
+            />
+
+            <FeatureCard
+              color="orange"
+              title="Updated Official Curriculum"
+              desc="Questions based on official curriculum. Constant updates with new questions."
+              icon="📖"
+            />
+
+            <FeatureCard
+              color="yellow"
+              title="Academy Collaboration"
+              desc="Special discounts for partner academy students. Only €6.66/month."
+              icon="👥"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section className="feedback-section">
+        <div className="feedback-container">
+          <div className="feedback-header">
+            <h2 style={{ color: "#0f172a" }}> What our users say </h2>
+            <p style={{ color: "#475569" }}>
+              Over 1,000 candidates have already trusted OPOMAP
+            </p>
+          </div>
+
+          <div className="feedback-grid">
+            <ReviewCard
+              name="Joan Garcia"
+              role="Barcelona Firefighter Candidate"
+              text="OPOMAP helped me memorize all of Catalonia's geography in less than a month. The practice mode is incredible!"
+            />
+
+            <ReviewCard
+              name="Laura Martinez"
+              role="Passed 2024"
+              text="Thanks to the official questions and simulations I passed the exam on my first attempt. Totally recommended."
+            />
+
+            <ReviewCard
+              name="Quim Pujol"
+              role="Bombers Pro Academy"
+              text="As a teacher, I recommend OPOMAP to all my students. The platform is complete and very effective."
+            />
+          </div>
+        </div>
+      </section>
+
+      <section className="partnership-section">
+        <div className="partnership-container">
+          {/* HEADER */}
+          <div className="partnership-header">
+            <h2>We work with the best academies</h2>
+            <p>Exclusive discounts for partner academy students</p>
+          </div>
+
+          <div className="partnership-grid">
+            <CollabCard
+              name="Academia Bombers BCN"
+              city="Barcelona"
+              studentCount="250+ students"
+              promo="BOMBERSBC"
+            />
+
+            <CollabCard
+              name="Oposicions Catalunya"
+              city="Girona"
+              studentCount="180+ students"
+              promo="OPOCAT25"
+            />
+
+            <CollabCard
+              name="Forma't Emergencies"
+              city="Tarragona"
+              studentCount="320+ students"
+              promo="FORMATEMER"
+            />
+
+            <CollabCard
+              name="Academia SPEIS"
+              city="Lleida"
+              studentCount="150+ students"
+              promo="SPEISLLEI"
+            />
+          </div>
+
+          <br />
+
+          <div className="academy-discount">
+            <div className="discount-left">
+              <div className="discount-icon">🛡️</div>
+              <div>
+                <h3>Special academy discount</h3>
+                <p>
+                  Your students will only pay <strong>€6.66/month</strong>{" "}
+                  instead of €9.99
+                </p>
+              </div>
+            </div>
+
+            <button className="discount-btn">Become a Partner →</button>
+          </div>
+        </div>
+      </section>
+
+      <section className="contact-section">
+        <div className="contact-container">
+          {/* HEADER */}
+          <div className="contact-header">
+            <h2>Are you an academy? Partner with us</h2>
+            <p>
+              Offer the best to your students and manage their promotional codes
+            </p>
+          </div>
+
+          {/* FORM */}
+          <div className="contact-form-card">
+            <form className="contact-form">
+              <div className="form-grid">
+                <div className="form-group">
+                  <label>Contact Name *</label>
+                  <input type="text" placeholder="John Aulia" />
+                </div>
+
+                <div className="form-group">
+                  <label>Contact Email *</label>
+                  <input type="text" placeholder="john@abc.com" />
+                </div>
+
+                <div className="form-group">
+                  <label>Phone</label>
+                  <input type="text" placeholder="0123 456 789" />
+                </div>
+
+                <div className="form-group">
+                  <label>Academy name*</label>
+                  <input type="text" placeholder="Academia Bombers BCN" />
+                </div>
+              </div>
+
+              <div className="form-group full">
+                <label>Message</label>
+                <textarea placeholder="Tell us about your academy" />
+              </div>
+
+              {/* Info BOX */}
+              <div className="form-info">
+                <h4>What the partnership includes</h4>
+                <ul>
+                  <li>Personalized promotional codes for your academy</li>
+                  <li>Management panel to see code usage</li>
+                  <li>33% discount for all your students</li>
+                  <li>Promotional materials and technical support</li>
+                </ul>
+              </div>
+
+              {/* Button */}
+              <button className="submit-btn">✉️ Send Request</button>
+            </form>
+          </div>
+
+          {/* Contact */}
+          <div className="direct-contact">
+            <p>Or contact us directly:</p>
+
+            <div className="contact-links">
+              <a href="mailto:academias@opomap.com" className="contact-link">
+                ✉️ academias@opomap.com
+              </a>
+
+              <a href="tel:+91600123456" className="contact-link">
+                📞 +91 600 123 456
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section className="cta-section">
+        <div className="cta-container">
+          <h2> Start preparing today</h2>
+          <p>
+            Join thousands of exam candidates already training with OPOMAP
+          </p>
+
+          <a href="#access" className="cta-button">
+            ⚡ Access Platform <span>➡️</span>
+          </a>
+        </div>
+      </section>
+
+      <footer className="footer"> 
+        <div className="footer-container">
+          <div className="footer-logo">
+            🔥 <span>OPOMAP</span>
+          </div>
+
+          <p className="footer-tagline">
+            The leading platform for fighter exam preparation
+          </p>
+
+          <div className="footer-links">
+            <a href="#terms">Terms & Conditions</a>
+            <a href="#privacy">Privacy</a>
+            <a href="#contact">Contact</a>
+          </div>
+
+          <p className="footer-copy">
+            © 2025 OPOMAP. All rights reserved.
+          </p>
+        </div>
+      </footer>
+
+    </div>

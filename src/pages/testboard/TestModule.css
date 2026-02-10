@@ -1,0 +1,134 @@
+/* Page container */
+.test-module {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 40px 20px 80px;
+}
+
+/* Page title */
+.test-module h1 {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 8px;
+}
+
+/* Subtitle */
+.subtitle {
+    text-align: center;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+/* Module card (Rivers / Mountains / Crops) */
+.module-card {
+    background: #ffffff;
+    padding: 24px;
+    border-radius: 18px;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.08);
+    margin-bottom: 30px;
+}
+
+/* Module title */
+.module-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Learn the map button */
+.learn-btn {
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient(90deg, #2563eb, #4f46e5);
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    margin: 12px 0 20px;
+}
+
+.learn-btn:hover {
+    opacity: 0.95;
+}
+
+/* Section heading */
+.module-card h4 {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+/* Game mode card */
+.mode-card {
+    background: #fff5f5;
+    border: 1px solid #ffe0e0;
+    padding: 16px;
+    border-radius: 14px;
+    margin-top: 16px;
+}
+
+/* Mode title */
+.mode-title {
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 4px;
+}
+
+/* Mode description */
+.mode-desc {
+    font-size: 13px;
+    color: #666;
+}
+
+/* Buttons wrapper */
+.mode-actions {
+    display: flex;
+    gap: 12px;
+    margin-top: 14px;
+}
+
+/* Practice button */
+.practice-btn {
+    flex: 1;
+    padding: 10px 0;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.practice-btn:hover {
+    background: #f5f5f5;
+}
+
+/* Exam button */
+.exam-btn {
+    flex: 1;
+    padding: 10px 0;
+    background: #ef4444;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.exam-btn:hover {
+    background: #dc2626;
+}
+
+/* Responsive tweak */
+@media (max-width: 480px) {
+    .test-module {
+        padding: 30px 14px 60px;
+    }
+
+    .module-card {
+        padding: 20px;
+    }
+}
